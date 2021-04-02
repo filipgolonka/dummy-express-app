@@ -3,6 +3,7 @@ application:
   name: "prod"
   project: "dummy-express-app"
   organization: "My Organization"
+  port: 3000
 routers:
 - name: "main-prod"
   routes:
