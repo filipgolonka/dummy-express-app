@@ -1,12 +1,11 @@
 ---
 application:
-  name: "dummy-express-app"
+  name: "prod"
   project: "dummy-express-app"
-  organization: "QoveryCommunity"
-  port: 3000
+  organization: "My Organization"
 routers:
-- name: "main-dummy-express-app"
+- name: "main-prod"
   routes:
-  - application_name: "dummy-express-app"
+  - application_name: "prod"
     paths:
     - "/*"
