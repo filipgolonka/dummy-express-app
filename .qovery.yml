@@ -1,0 +1,11 @@
+---
+application:
+  name: "dummy-express-app"
+  project: "dummy-express-app"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-dummy-express-app"
+  routes:
+  - application_name: "dummy-express-app"
+    paths:
+    - "/*"
